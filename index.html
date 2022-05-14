@@ -1,41 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+        <link rel="stylesheet" href="custom/custom.css" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <title>Frontend Mentor | Fylo data storage component</title>
+    </head>
 
-  <title>Frontend Mentor | Fylo data storage component</title>
+    <body class="container flex-column flex-lg-row">
+        <div class="caja1 bg-primary">
+            <img src="images/logo.svg" alt="" />
+            <ul class="caja1__ul">
+                <li><img src="images/icon-document.svg" alt="" /></li>
+                <li><img src="images/icon-folder.svg" alt="" /></li>
+                <li><img src="images/icon-upload.svg" alt="" /></li>
+            </ul>
+        </div>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
+        <div class="caja2 bg-primary">
+            <p class="caja2__p text-center">
+                You've used
+                <span>815 GB</span>
+                of your storage
+            </p>
+            <div class="caja2__range">
+                <div class="caja2__range__espacio"></div>
+                <div class="caja2__range__datos text-white">
+                    <p>0 GB</p>
+                    <p>1000 GB</p>
+                </div>
+            </div>
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
-</head>
+            <p class="caja2__left text-center align-items-center">
+                185
+                <span>GB Left</span>
+            </p>
+        </div>
 
-<body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-
-  0 GB
-  1000 GB
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
-
+        <!-- <div class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+		Coded by <a href="#">Your Name Here</a>.
+	</div> -->
+    </body>
 </html>
